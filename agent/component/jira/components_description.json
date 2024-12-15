@@ -1,0 +1,29 @@
+{
+  "GetAPIs": {
+    "description": "",
+    "parameter": {},
+    "input": {},
+    "output": {
+      "list_api": "All APIs used to solve user query (list)"
+    }
+  },
+  "Retract": {
+    "description": "",
+    "parameter": {},
+    "input": {
+      "user_query": "Query from user (string)",
+      "list_api": "All APIs used to solve user query (list)"
+    },
+    "output": {
+      "parameters": "All parameters of all APIs (dictionary)"
+    }
+  },
+  "Generate": {
+    "description": "",
+    "parameter": {
+      "prompt": "Prompt send to LLM (string)"
+    },
+    "input": {},
+    "output": {}
+  }
+}
